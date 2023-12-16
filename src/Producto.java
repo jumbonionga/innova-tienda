@@ -63,7 +63,7 @@ public abstract class Producto {
         return "Nombre producto: " + this.nombre + "\n" +
                 "Descripcion: " + this.descripcion + "\n" +
                 "Categoria: " + this.categoria + "\n" +
-                "Categoria: " + this.categoria + "\n" +
+                "Etiquetas: " + this.etiquetas + "\n" +
                 "Precio: " + this.precio + "\n" +
                 "URL Foto: " + this.urlFoto;
     }
