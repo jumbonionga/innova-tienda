@@ -11,55 +11,55 @@ public abstract class Producto {
         this.precio = precio;
     }
 
-    String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    void setNombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    String getDescripcion() {
+    public String getDescripcion() {
         return descripcion;
     }
 
-    void setDescripcion(String descripcion) {
+    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
-    String getCategoria() {
+    public String getCategoria() {
         return categoria;
     }
 
-    void setCategoria(String categoria) {
+    public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
-    String getEtiquetas() {
+    public String getEtiquetas() {
         return etiquetas;
     }
 
-    void setEtiquetas(String etiquetas) {
+    public void setEtiquetas(String etiquetas) {
         this.etiquetas = etiquetas;
     }
 
-    String getUrlFoto() {
+    public String getUrlFoto() {
         return urlFoto;
     }
 
-    void setUrlFoto(String urlFoto) {
+    public void setUrlFoto(String urlFoto) {
         this.urlFoto = urlFoto;
     }
 
-    double getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    void setPrecio(double precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
-    String mostrarDetalles() {
+    public String mostrarDetalles() {
         return "Nombre producto: " + this.nombre + "\n" +
                 "Descripcion: " + this.descripcion + "\n" +
                 "Categoria: " + this.categoria + "\n" +
