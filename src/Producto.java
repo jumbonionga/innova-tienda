@@ -1,4 +1,4 @@
-public class Producto {
+public abstract class Producto {
     private String nombre, descripcion, categoria, etiquetas, urlFoto;
     private double precio;
 
@@ -11,55 +11,55 @@ public class Producto {
         this.precio = precio;
     }
 
-    public String getNombre() {
+    String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public String getDescripcion() {
+    String getDescripcion() {
         return descripcion;
     }
 
-    public void setDescripcion(String descripcion) {
+    void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
-    public String getCategoria() {
+    String getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
-    public String getEtiquetas() {
+    String getEtiquetas() {
         return etiquetas;
     }
 
-    public void setEtiquetas(String etiquetas) {
+    void setEtiquetas(String etiquetas) {
         this.etiquetas = etiquetas;
     }
 
-    public String getUrlFoto() {
+    String getUrlFoto() {
         return urlFoto;
     }
 
-    public void setUrlFoto(String urlFoto) {
+    void setUrlFoto(String urlFoto) {
         this.urlFoto = urlFoto;
     }
 
-    public double getPrecio() {
+    double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(double precio) {
+    void setPrecio(double precio) {
         this.precio = precio;
     }
 
-    public String mostrarDetalles() {
+    String mostrarDetalles() {
         return "Nombre producto: " + this.nombre + "\n" +
                 "Descripcion: " + this.descripcion + "\n" +
                 "Categoria: " + this.categoria + "\n" +
